@@ -2,7 +2,7 @@
 <hibernate-configuration>
   <session-factory>
     <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
-    <property name="connection.url">jdbc:postgresql://localhost:5433/project</property>
+    <property name="connection.url">postgresql://postgres:e70eKfHCGeWKKyRBQ6nl@containers-us-west-61.railway.app:7240/railway</property>
     <property name="hibernate.connection.username">postgres</property>
     <property name="hibernate.hbm2ddl.auto">update</property>
     <property name="hibernate.show_sql">true</property>
